@@ -15,6 +15,21 @@ Associated repos:
 
 Follow the steps to collaborate on our code: https://bcgov.github.io/bcparks/collaborate
 
+# Local Development 
+
+## Development Server
+
+```yarn install```
+
+```yarn start```
+
+Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.
+
+## Running Unit Tests
+
+```yarn test-ci --```  to run all tests. 
+ 
+```yarn test-ci -- --include src/app/shared/components/metrics``` to run on a specific file
 
 # Deployment Pipeline
 
